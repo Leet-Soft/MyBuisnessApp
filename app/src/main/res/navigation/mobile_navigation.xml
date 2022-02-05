@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="uni.fmi.masters.mybuisnessapp.ui.home.HomeFragment"
+        android:name="uni.fmi.masters.mybuisnessapp.ui.articles.ArticlesFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_articles" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="uni.fmi.masters.mybuisnessapp.ui.gallery.GalleryFragment"
+        android:name="uni.fmi.masters.mybuisnessapp.ui.companies.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="uni.fmi.masters.mybuisnessapp.ui.slideshow.SlideshowFragment"
+        android:name="uni.fmi.masters.mybuisnessapp.ui.documents.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>

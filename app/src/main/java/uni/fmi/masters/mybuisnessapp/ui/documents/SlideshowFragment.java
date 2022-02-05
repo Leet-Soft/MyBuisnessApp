@@ -1,4 +1,4 @@
-package uni.fmi.masters.mybuisnessapp.ui.slideshow;
+package uni.fmi.masters.mybuisnessapp.ui.documents;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,6 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import uni.fmi.masters.mybuisnessapp.R;
 import uni.fmi.masters.mybuisnessapp.databinding.FragmentSlideshowBinding;
 
 public class SlideshowFragment extends Fragment {
